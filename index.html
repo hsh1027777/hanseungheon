@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>2024년 대한민국 예산 분석</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>2024년 대한민국 예산 분석</h1>
+
+  <div class="summary">
+    <p><strong>총지출:</strong> 약 657조 원 (전년 대비 +2.8%)</p>
+    <p>정부는 복지, 국방, 디지털 전환 분야에 중점 투자하였으며, 재정건전성 확보를 위한 구조조정도 병행되었습니다.</p>
+  </div>
+
+  <h2>주요 분야별 예산 비교</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>분야</th>
+        <th>2023년 예산 (조원)</th>
+        <th>2024년 예산 (조원)</th>
+        <th>증감률 (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>보건·복지·고용</td><td>225.7</td><td>228.0</td><td>+1.0</td></tr>
+      <tr><td>국방</td><td>57.1</td><td>59.6</td><td>+4.4</td></tr>
+      <tr><td>교육</td><td>86.6</td><td>89.0</td><td>+2.8</td></tr>
+      <tr><td>산업·중기·에너지</td><td>30.9</td><td>28.6</td><td>-7.4</td></tr>
+      <tr><td>SOC</td><td>28.7</td><td>27.0</td><td>-5.9</td></tr>
+    </tbody>
+  </table>
+
+  <h2>2024년 예산 비중 (파이 차트)</h2>
+  <canvas id="budgetChart" width="600" height="400"></canvas>
+
+  <h2>인구 & 경제 지표와 예산 상관 분석</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>지표</th>
+        <th>수치</th>
+        <th>연관 분야</th>
+        <th>시사점</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>합계출산율</td>
+        <td>0.72 (2023)</td>
+        <td>보건·복지</td>
+        <td>저출산 대응 정책 확대 필요</td>
+      </tr>
+      <tr>
+        <td>65세 이상 고령 인구 비중</td>
+        <td>18.4%</td>
+        <td>복지·의료</td>
+        <td>노인복지 및 건강지원 예산 중요성 증가</td>
+      </tr>
+      <tr>
+        <td>GDP 성장률</td>
+        <td>1.4%</td>
+        <td>산업·중기</td>
+        <td>성장 둔화로 기업지원 필요</td>
+      </tr>
+      <tr>
+        <td>청년 실업률</td>
+        <td>7.2%</td>
+        <td>고용</td>
+        <td>청년 고용 촉진 예산의 필요성</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    © 2024 대한민국 예산 데이터 분석 예시 + 인구 및 경제 지표 상관관계 분석
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
